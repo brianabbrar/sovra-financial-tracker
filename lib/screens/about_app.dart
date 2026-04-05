@@ -44,10 +44,27 @@ class AboutPage extends StatelessWidget {
                 ),
               ),
               Text(
-                'THE SOVEREIGN VAULT',
+                'THE SOVEREIGN FINANCIAL',
                 style: TextStyle(
                   fontSize: 12, 
                   color: Colors.grey[600], 
+                  letterSpacing: 2.0,
+                ),
+              ),
+              Text(
+                'Version 1.0.0',
+                style: TextStyle(
+                  fontSize: 12, 
+                  fontStyle: FontStyle.italic,
+                  color: Colors.grey[600], 
+                  letterSpacing: 2.0,
+                ),
+              ),
+               Text(
+                'Developed by Brianabbrar',
+                style: TextStyle(
+                  fontSize: 12, 
+                  color: const Color.fromARGB(255, 255, 0, 0), 
                   letterSpacing: 2.0,
                 ),
               ),
@@ -68,7 +85,7 @@ class AboutPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'OUR MISSION',
+                      'TUJUAN KAMI',
                       style: TextStyle(
                         fontSize: 12, 
                         fontWeight: FontWeight.bold, 
@@ -85,11 +102,11 @@ class AboutPage extends StatelessWidget {
                           height: 1.4,
                         ),
                         children: [
-                          const TextSpan(text: 'Empowering you to master your financial destiny through '),
-                          TextSpan(text: 'precision, ', style: TextStyle(color: Colors.green[700])),
-                          TextSpan(text: 'security, ', style: TextStyle(color: Colors.blue[700])),
-                          const TextSpan(text: 'and '),
-                          TextSpan(text: 'growth.', style: TextStyle(color: Colors.green[900])),
+                          const TextSpan(text: 'Memberdayakan Anda untuk menguasai takdir keuangan Anda melalui '),
+                          TextSpan(text: 'presisi, ', style: TextStyle(color: Colors.green[700])),
+                          TextSpan(text: 'keamanan, ', style: TextStyle(color: Colors.blue[700])),
+                          const TextSpan(text: 'dan '),
+                          TextSpan(text: 'pertumbuhan.', style: TextStyle(color: Colors.green[900])),
                         ],
                       ),
                     ),
@@ -103,22 +120,22 @@ class AboutPage extends StatelessWidget {
                 icon: Icons.bar_chart_rounded,
                 iconColor: Colors.green,
                 bgColor: const Color(0xFFE8F5E9),
-                title: 'Intelligent Budgeting',
-                desc: 'Advanced algorithms that learn your habits and optimize your outflows.',
+                title: 'Budgeting Cerdas',
+                desc: 'Kontrol penuh atas pengeluaran dengan analisis untuk keputusan keuangan yang lebih cerdas.',
               ),
               _buildFeatureItem(
                 icon: Icons.show_chart_rounded,
                 iconColor: Colors.white,
                 bgColor: const Color(0xFF1A237E),
-                title: 'Real-time Wealth Tracking',
-                desc: 'Synchronized global assets in a single, high-fidelity dashboard.',
+                title: 'Pelacakan Kekayaan Secara Real-time',
+                desc: 'Sinkronisasi aset global dalam satu dasbor berkualitas tinggi.',
               ),
               _buildFeatureItem(
                 icon: Icons.lock_outline_rounded,
                 iconColor: Colors.red[900]!,
                 bgColor: const Color(0xFFFFEBEE),
-                title: 'Bank-grade Security',
-                desc: 'Encryption protocols designed for the sovereign individual.',
+                title: 'Kemudahan Penggunaan Aplikasi',
+                desc: 'Antarmuka yang intuitif dan desain yang elegan untuk pengalaman pengguna yang mulus.',
               ),
 
               // --- Margin Tambahan ---

@@ -16,13 +16,13 @@ class SovraNavbar extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
-        _buildNavItem(Icons.grid_view_rounded, "VAULT", 0),
-        _buildNavItem(Icons.history_edu_outlined, "HISTORY", 1),
+        _buildNavItem(Icons.grid_view_rounded, "ASET", 0),
+        _buildNavItem(Icons.history_edu_outlined, "MUTASI", 1),
         
         // Kasih space kosong di tengah untuk tombol ADD yang ada di Stack
         const SizedBox(width: 60),
 
-        _buildNavItem(Icons.bar_chart_outlined, "INSIGHT", 2),
+        _buildNavItem(Icons.bar_chart_outlined, "ANALISIS", 2),
         _buildNavItem(Icons.info_outline, "ABOUT", 3),
       ],
     );
